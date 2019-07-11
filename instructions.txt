@@ -1,0 +1,29 @@
+**Written by Hadeel Aburahma**
+
+**Notes:
+1. This code was written in linux (Ubuntu 18.4) environment.
+2. To run this code php should be installed.
+
+-----------------------------------------------------------------
+
+**To run the webpage:
+1. Open terminal.
+2. cd to the project directory.
+   ex. If its located in Downloads:
+       cd ~/Downloads/opensooqTask
+3. run the following command to run php builtin web server:
+   php -S localhost:8000
+   where 8000 is an example of port number.
+4. Open your preferred browser and go to:
+   localhost:8000
+   then the index.php will be loaded.
+
+-----------------------------------------------------------------
+
+**To run the code in command-line (terminal):
+1. Open terminal.
+2. cd to the project directory.
+   ex. If its located in Downloads:
+       cd ~/Downloads/opensooqTask
+3. run the following command to run test_cmd.php:
+   php test_cmd.php
