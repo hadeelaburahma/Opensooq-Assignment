@@ -27,7 +27,7 @@ include_once 'Helper.php';
     <div class="container">
       <div class="row">
         <div class="form">
-          <form class= "cal-distance">
+          <form class= "cal-distance" action="" method="get">
             <h2 class="form-title">Enter 2 Strings to find levenshtein distance</h2>
             <div class="form-group input-string">
               <input type="text" class="form-control input-string" id="first-string"
@@ -43,9 +43,12 @@ include_once 'Helper.php';
               <label>Result: </label>
               <output name="distance">
                 <?php
+                if ($_SERVER["REQUEST_METHOD"] == "GET") {
                   $str1= $_GET['firstString'];
                   $str2= $_GET['secondString'];
                   echo helper::distanceHelper(2,$str1,$str2);
+                }
+                else echo 0;
                 ?>
               </output>
             </div>
