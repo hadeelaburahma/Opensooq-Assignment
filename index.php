@@ -1,5 +1,8 @@
 <?php
-/* To run the page in termninal:
+/*
+  This code is writen by: Hadeel J.Aburahma
+
+  To run the page in termninal:
    1. open terminal and cd to the assignment dir (opensooqTask)
    2. run the following command: 
       php -S localhost:8000
@@ -28,12 +31,12 @@ include_once 'Helper.php';
             <h2 class="form-title">Enter 2 Strings to find levenshtein distance</h2>
             <div class="form-group input-string">
               <input type="text" class="form-control input-string" id="first-string"
-                placeholder="Enter First String" name="firstString" minlength="1">
+                placeholder="Enter First String" name="firstString" minlength="1" required>
             </div>
 
             <div class="form-group input-string">
               <input type="text" class="form-control input-string" id="second-string"
-                placeholder="Enter Second String" name="secondString" minlength="1">
+                placeholder="Enter Second String" name="secondString" minlength="1" required>
             </div>
             
             <div class="output-box">
@@ -50,6 +53,27 @@ include_once 'Helper.php';
             <button type="submit" class="btn btn-default submit-btn">find levenshtein distance
             </button>
           </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-xs-12">
+            <h3>Opensooq Backend Assignment</h3>
+            <p>
+            Done by Hadeel Aburahma </br>
+            Email: hadeel.aburahma5@gmail.com </br>
+            Mobile: 0786430176 </br>
+            </p>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <div class="logo">
+              <img src="images/OpenSooqLogo.png">
+            </div>
+          </div>
         </div>
       </div>
     </div>
