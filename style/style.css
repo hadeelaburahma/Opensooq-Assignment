@@ -1,0 +1,49 @@
+form {
+  margin: 30px;
+  padding: 30px 50px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+form h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 40px;
+}
+form input.input-string {
+  padding: 24px 10px;
+  font-size: 16px;
+}
+form .btn {
+  padding: 15px 50px;
+  font-size: 20px;
+  background-color: darkblue;
+  color: white;
+  border: solid 1px darkblue;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  form .btn {
+    margin-right: auto;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+form .btn:hover {
+  background-color: white;
+  color: darkblue;
+}
+form .output-box {
+  text-align: left;
+  font-size: 16px;
+}
+form .output-box label {
+  display: inline-block;
+}
+form .output-box output {
+  display: inline-block;
+  font-size: 16px;
+}
