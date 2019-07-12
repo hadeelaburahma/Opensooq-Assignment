@@ -9,6 +9,11 @@ class HammingDist {
     firstly, it will check the lengths of string to pad shorter string
     secondly, it will check the strings char by char
   */
+
+  public function __construct () {
+    global $distance;
+    $distance = 0;
+  }
   public function hamming_dis ($a,$b){
 
     global $distance;
